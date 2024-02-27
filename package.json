@@ -1,6 +1,7 @@
 {
-  "homepage": "https://tetyana-pol.github.io/react-for-nest",
+  
   "name": "react-for-nest",
+"homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

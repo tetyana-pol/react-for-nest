@@ -6,7 +6,7 @@ export const Card = ({ card }) => {
         <div className="card-image">
           <figure className="image is-4by3">
             <img
-              src={`http://127.0.0.1:8000/advertisement/image/${img}`}
+              src={`${process.env.REACT_APP_API_URL}/advertisement/image/${img}`}
               alt="Placeholder image"
             />
           </figure>
