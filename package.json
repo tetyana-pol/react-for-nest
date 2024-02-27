@@ -1,5 +1,6 @@
 {
-  "name": "login-app",
+  "homepage": "https://tetyana-pol.github.io/react-for-nest",
+  "name": "react-for-nest",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "bulma": "^0.9.3",
     "classnames": "^2.3.1",
     "formik": "^2.2.9",
+    "gh-pages": "^6.1.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
@@ -16,6 +18,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
