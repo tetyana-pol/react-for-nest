@@ -1,4 +1,10 @@
-# Login App
-This a client application for Node.js Auth lesson
+Fontend for Nest.js project (React)
 
-Run `npm ci` and `npm start` to use it with the [auth-api](https://github.com/mate-academy/nodejs-auth-api-done)
+Routes
+/ - show all advertisements
+/add - add advertisements
+/login
+
+In this project are used acces and refresh tokens
+
+[DEMO LINK](https://tetyana-pol.github.io/react-for-nest)
