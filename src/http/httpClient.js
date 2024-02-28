@@ -9,7 +9,7 @@ httpClient.interceptors.response.use(onResponseSuccess, onResponseError);
 
 function onRequest(request) {
   const accessToken = localStorage.getItem("accessToken");
-  console.log(accessToken);
+
   if (accessToken) {
     request.headers["Authorization"] = `Bearer ${accessToken}`;
   }
